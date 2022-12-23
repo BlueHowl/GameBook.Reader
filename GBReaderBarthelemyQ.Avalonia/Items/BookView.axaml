@@ -1,0 +1,26 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="GBReaderBarthelemyQ.Avalonia.Items.BookView">
+
+	<StackPanel>
+		<Expander x:Name="BVExpander" ExpandDirection="Down">
+			<Expander.Header>
+				<StackPanel>
+					<TextBlock x:Name="TitleText" Text="" />
+					<TextBlock x:Name="IsbnText" Text="" />
+					<TextBlock x:Name="AuthorText" Text="" />
+				</StackPanel>
+			</Expander.Header>
+			<StackPanel>
+				<TextBlock x:Name="SummaryText" Text="" TextWrapping="Wrap"/>
+				<Button x:Name="StartReadBtn" Click="StartRead">
+					Démarrer la lecture
+				</Button>
+			</StackPanel>
+		</Expander>
+	</StackPanel>
+	
+</UserControl>

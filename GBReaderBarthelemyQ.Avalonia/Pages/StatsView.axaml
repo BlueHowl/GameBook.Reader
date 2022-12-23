@@ -1,0 +1,25 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="GBReaderBarthelemyQ.Avalonia.Pages.StatsView">
+
+	<StackPanel Margin="8" Spacing="8">
+		<Panel Margin="8">
+			<TextBlock x:Name="SessionCount"></TextBlock>
+			<Button Click="Back" HorizontalAlignment="Right" IsDefault="True">
+				Retour
+			</Button>
+		</Panel>
+
+		<StackPanel x:Name="MainPanel">
+			<TextBlock x:Name="SVPanelMessage" Text="Aucunes sessions trouvées . . ." IsVisible="False" Margin="8"></TextBlock>
+			<ScrollViewer x:Name="SessionViewPanel" AllowAutoHide="False" VerticalScrollBarVisibility="Visible" Height="500">
+				<StackPanel x:Name="SessionViewStackPanel"></StackPanel>
+			</ScrollViewer>
+		</StackPanel>
+
+	</StackPanel>
+	
+</UserControl>

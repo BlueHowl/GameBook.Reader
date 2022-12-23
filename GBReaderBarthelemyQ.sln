@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GBReaderBarthelemyQ.Avalonia", "GBReaderBarthelemyQ.Avalonia\GBReaderBarthelemyQ.Avalonia.csproj", "{2C3C8848-F313-4035-AC3C-E3037E88BDAE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GBReaderBarthelemyQ.Domains", "GBReaderBarthelemyQ.Domains\GBReaderBarthelemyQ.Domains.csproj", "{77188A0E-1514-46E5-8176-8EC9DE6D3D99}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GBReaderBarthelemyQ.Infrastructure", "GBReaderBarthelemyQ.Infrastructure\GBReaderBarthelemyQ.Infrastructure.csproj", "{863D40A5-EA4A-4B6C-8E91-BFD2B6EAAB5F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GBReaderBarthelemyQ.Presenters", "GBReaderBarthelemyQ.Presenters\GBReaderBarthelemyQ.Presenters.csproj", "{BCD8A8EF-F0CE-4A7D-8DBC-2B767992B315}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GBReaderBarthelemyQ.Repositories", "GBReaderBarthelemyQ.Repositories\GBReaderBarthelemyQ.Repositories.csproj", "{6C041CEB-62BF-418D-A438-22AA9E743C3D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Éléments de solution", "Éléments de solution", "{1B311B66-6910-4C24-B168-8FDC81643162}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		CodeMetricsConfig.txt = CodeMetricsConfig.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GBReaderBarthelemyQ.Test", "GBReaderBarthelemyQ.Test\GBReaderBarthelemyQ.Test.csproj", "{852163E7-3F55-47AB-9B17-7A29816EDB71}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C3C8848-F313-4035-AC3C-E3037E88BDAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C3C8848-F313-4035-AC3C-E3037E88BDAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C3C8848-F313-4035-AC3C-E3037E88BDAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C3C8848-F313-4035-AC3C-E3037E88BDAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77188A0E-1514-46E5-8176-8EC9DE6D3D99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77188A0E-1514-46E5-8176-8EC9DE6D3D99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77188A0E-1514-46E5-8176-8EC9DE6D3D99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77188A0E-1514-46E5-8176-8EC9DE6D3D99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{863D40A5-EA4A-4B6C-8E91-BFD2B6EAAB5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{863D40A5-EA4A-4B6C-8E91-BFD2B6EAAB5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{863D40A5-EA4A-4B6C-8E91-BFD2B6EAAB5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{863D40A5-EA4A-4B6C-8E91-BFD2B6EAAB5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCD8A8EF-F0CE-4A7D-8DBC-2B767992B315}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCD8A8EF-F0CE-4A7D-8DBC-2B767992B315}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCD8A8EF-F0CE-4A7D-8DBC-2B767992B315}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCD8A8EF-F0CE-4A7D-8DBC-2B767992B315}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C041CEB-62BF-418D-A438-22AA9E743C3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C041CEB-62BF-418D-A438-22AA9E743C3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C041CEB-62BF-418D-A438-22AA9E743C3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C041CEB-62BF-418D-A438-22AA9E743C3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{852163E7-3F55-47AB-9B17-7A29816EDB71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{852163E7-3F55-47AB-9B17-7A29816EDB71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{852163E7-3F55-47AB-9B17-7A29816EDB71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{852163E7-3F55-47AB-9B17-7A29816EDB71}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {160C8D44-1B9F-44AB-9844-9C47019E836B}
+	EndGlobalSection
+EndGlobal

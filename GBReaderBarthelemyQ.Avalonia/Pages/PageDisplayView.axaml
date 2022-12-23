@@ -1,0 +1,38 @@
+﻿<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="GBReaderBarthelemyQ.Avalonia.Pages.PageDisplayView">
+
+	<StackPanel Margin="8" Spacing="8">
+		<TextBlock x:Name="PageNumber" />
+
+		<TextBlock x:Name="PageText" TextWrapping="Wrap" Height="200"/>
+
+		<StackPanel x:Name="ChoiceMenu" Margin="8" HorizontalAlignment="Center" Height="150">
+			<TextBlock Text="Choix :"/>
+			<ListBox x:Name="ChoiceList" Width="400">
+				<ListBox.ItemTemplate>
+					<DataTemplate>
+						<TextBlock Text="{Binding}" TextWrapping="Wrap"/>
+					</DataTemplate>
+				</ListBox.ItemTemplate>
+			</ListBox>
+			
+		</StackPanel>
+
+		<StackPanel x:Name="EndMenu" IsVisible="False" Margin="8" HorizontalAlignment="Center">
+			<Button Click="RestartRead">
+				Recommencer la lecture
+			</Button>
+		</StackPanel>
+
+		<StackPanel HorizontalAlignment="Center">
+			<Button Click="GoToBookListPage">
+				Retourner à la page d'Accueil
+			</Button>
+		</StackPanel>
+		
+	</StackPanel>
+</UserControl>
