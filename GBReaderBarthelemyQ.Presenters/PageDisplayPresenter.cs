@@ -50,7 +50,7 @@ public class PageDisplayPresenter
     {
         try
         {
-            IDataInterface repository = _factory.NewStorage();
+            using IDataInterface repository = _factory.NewStorage();
             repository.LoadPages(_library.GetCurrentBook());
         }
         catch (UnableToConnectException e)

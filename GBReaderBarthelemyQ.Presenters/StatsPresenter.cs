@@ -1,7 +1,6 @@
 ﻿using GBReaderBarthelemyQ.Domains;
 using GBReaderBarthelemyQ.Presenters.Interfaces;
 using GBReaderBarthelemyQ.Presenters.Interfaces.Pages;
-using GBReaderBarthelemyQ.Repositories;
 
 namespace GBReaderBarthelemyQ.Presenters;
 public class StatsPresenter

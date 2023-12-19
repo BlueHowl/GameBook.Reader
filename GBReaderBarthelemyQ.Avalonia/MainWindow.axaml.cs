@@ -40,7 +40,7 @@ namespace GBReaderBarthelemyQ.Avalonia
         {
             Content = _pages[pageName];
 
-            switch (pageName)
+            switch (pageName)    ///PRBLM OCP
             {
                 case "PageDisplay":
                     StartReadRequested?.Invoke(this, new RestartReadEventArgs(false));

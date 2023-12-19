@@ -6,7 +6,7 @@ using System.Data.SqlClient;
 namespace GBReaderBarthelemyQ.Repository.Sql
 {
     /// <summary>
-    /// Classe SqlStorage
+    /// Classe SqlStorage  LCOM = 1-(7/(2*8)) = 0.5625
     /// </summary>
     public class SqlStorage : IDisposable, IDataInterface
     {
@@ -79,6 +79,7 @@ namespace GBReaderBarthelemyQ.Repository.Sql
             _idKeeper = idKeeper;
         }
 
+        /*
         public int Setup() //TODO only for tests same for java
         {
             int rows = 0;
@@ -138,7 +139,7 @@ namespace GBReaderBarthelemyQ.Repository.Sql
 
                 throw new Exception(ex.Message);
             }
-        }
+        }*/
 
         /// <summary>
         /// Récupère une liste de livre sur base d'une query
@@ -227,7 +228,7 @@ namespace GBReaderBarthelemyQ.Repository.Sql
         }
 
         /// <summary>
-        /// La méthode Daron
+        /// La méthode Daron ou BindIsbns
         /// permet de binder les isbns à la commande
         /// </summary>
         /// <param name="selectCommand">(IDbCommand)</param>

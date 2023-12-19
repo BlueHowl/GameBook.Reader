@@ -32,18 +32,9 @@ public class SessionRepository : ISessionRepository
     {
         try
         {
-            string jsonSessions;
+            string jsonSessions = string.Empty;
 
-            if (!File.Exists(_JsonBooksPath))
-            {
-                using FileStream fs = File.Create(_JsonBooksPath);
-
-                using StreamReader sr = new StreamReader(fs);
-
-                jsonSessions = sr.ReadToEnd();
-
-            }
-            else
+            if (File.Exists(_JsonBooksPath))
             {
                 jsonSessions = File.ReadAllText(_JsonBooksPath);
             }

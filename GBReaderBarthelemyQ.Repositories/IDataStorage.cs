@@ -5,7 +5,7 @@ namespace GBReaderBarthelemyQ.Repositories;
 /// <summary>
 /// Interface de repository
 /// </summary>
-public interface IDataInterface
+public interface IDataInterface : IDisposable
 {
     /// <summary>
     /// Récupère une liste de livre sur base d'une query

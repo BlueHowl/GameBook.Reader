@@ -9,7 +9,7 @@ using GBReaderBarthelemyQ.Repositories.Exceptions;
 namespace GBReaderBarthelemyQ.Presenters;
 
 /// <summary>
-/// Classe présentateur de liste de livre
+/// Classe présentateur de liste de livre      LCOM pas bon 
 /// </summary>
 public class BookListPresenter
 {
@@ -63,7 +63,7 @@ public class BookListPresenter
 
         try
         {
-            IDataInterface repository = _factory.NewStorage();
+            using IDataInterface repository = _factory.NewStorage();
 
             if (searchString == null && isbns.Length != 0)
             {
@@ -99,7 +99,7 @@ public class BookListPresenter
     /// </summary>
     /// <param name="sender"></param>
     /// <param name="e"></param>
-    private void OnFilterRequested(object? sender, FilterEventArgs e) => _view.DisplayBooks(GetBookList(e.searchString));
+    private void OnFilterRequested(object? sender, FilterEventArgs e) => _view.DisplayBooks(GetBookList(e.SearchString));
 
     /// <summary>
     /// Est appelé lors de l'appui sur le bouton de lecture du livre
