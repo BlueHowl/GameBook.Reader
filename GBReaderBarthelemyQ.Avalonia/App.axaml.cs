@@ -18,7 +18,7 @@ namespace GBReaderBarthelemyQ.Avalonia
 {
     public partial class App : Application
     {
-        private const string DbConnectionString = @"server=192.168.132.200;port=13306;database=Q210043;uid=Q210043;pwd=0043;";
+        private const string DbConnectionString = @"server=IP;port=PORT;database=DBNAME;uid=DBNAME;pwd=PASSWORD;";
 
         private readonly string _jsonPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.UserProfile), "ue36", "q210043-session.json");
 
